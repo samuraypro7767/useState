@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.containerMain{
+  width: 50%;
+  height: 30%;
+  border:1px solid white ;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+.containerMain h2{
+   font-size: 27px;
+
+}
+
+.containerMain p{
+  font-size: 20px;
+}
