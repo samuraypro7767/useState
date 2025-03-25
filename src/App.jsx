@@ -11,7 +11,7 @@ function App() {
   return (
     <>
 
-      <main>
+      <main className='containerPricipal'>
        
         <ModeButton></ModeButton>
         <LikeDislike></LikeDislike>
