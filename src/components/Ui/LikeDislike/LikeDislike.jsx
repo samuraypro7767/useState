@@ -5,7 +5,7 @@ export const LikeDislike = () => {
    <>
    <div classNameName="containerMain containerLikeDislike">
        
-   <h2>Botón de Like/Dislike</h2>
+   <h4 className="textLike">Botón de Like/Dislike</h4>
     <div className="like-dislike-container">
         <div className="tool-box">
         </div>

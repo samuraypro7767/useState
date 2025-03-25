@@ -10,8 +10,8 @@
 }
 
 .btn-12 {
-    width: 100%;
-    height: 2rem;
+    width: 80%;
+    height: 5rem;
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
   background-color: #000;
@@ -51,7 +51,7 @@
   border-radius: 99rem;
   border-width: 2px;
   overflow: hidden;
-  padding: 0.2rem 0;
+  padding:  0;
   position: relative;
 }
 

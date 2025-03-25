@@ -4,8 +4,8 @@ import './Time.css'
 export const Time = () => {
   return (
     <>
-        <div className="component-card animate-scale-in">
-  <h2 className="text-xl font-medium mb-6">Cronómetro</h2>
+        <div className="component-card ">
+  <h2 className="text-xl ">Cronómetro</h2>
 
   <div className="flex flex-col items-center gap-6">
     <div className="time-display">
