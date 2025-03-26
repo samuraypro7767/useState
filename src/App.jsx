@@ -14,9 +14,9 @@ function App() {
       <main className='containerPricipal'>
        
         <ModeButton></ModeButton>
-        <LikeDislike></LikeDislike>
-        <Time></Time>
         <GenerateColor></GenerateColor>
+        <Time></Time>
+        <LikeDislike></LikeDislike>
         <div className="container"></div>
       </main>
      

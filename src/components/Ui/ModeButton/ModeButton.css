@@ -1,14 +1,13 @@
 :root {
   --hue: 223;
-  --bg: hsl(var(--hue),10%,90%);
-  --fg: hsl(var(--hue),10%,10%);
-  --primary: hsl(var(--hue),90%,50%);
+  --primary: hsl(var(--hue), 90%, 50%);
   --trans-dur: 0.3s;
-  --trans-timing: cubic-bezier(0.76,0.05,0.24,0.95);
-  --trans-timing-in: cubic-bezier(0.76,0.05,0.86,0.06);
-  --trans-timing-out: cubic-bezier(0.05,0.76,0.06,0.86);
+  --trans-timing: cubic-bezier(0.76, 0.05, 0.24, 0.95);
+  --trans-timing-in: cubic-bezier(0.76, 0.05, 0.86, 0.06);
+  --trans-timing-out: cubic-bezier(0.05, 0.76, 0.06, 0.86);
   font-size: calc(40px + (80 - 40) * (100px - 320px) / (2560 - 320));
 }
+
 
 .container,
 .switch__input {
@@ -17,15 +16,16 @@
 }
 
 .container {
-  width: 3.2rem;
+  width: 3.3rem;
   background-color: var(--bg);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 23%;
   border-radius:0.75em ;
   transition: background-color var(--trans-dur),
 		color var(--trans-dur);
+    
 }
 
 
@@ -162,3 +162,5 @@
   width: 1px;
   height: 1px;
 }
+
+

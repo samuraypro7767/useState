@@ -4,23 +4,25 @@
     background-color: transparent;
     text-align: center;
     width: 100%;
-    height: 70%;
+    height: 90%;
+    background-color: #ace3d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
   .text-xl {
-    font-size: 35PX;
+    font-size: 35px;
     font-weight: bold !important;
+    padding: 0;
+    margin: 0;
     
   }
   
-  .font-medium {
-    font-weight: 500;
-  }
   
-  .mb-6 {
-    margin-bottom: 1.5rem;
-  }
   
+
   /* Animación */
   @keyframes scale-in {
     0% {
@@ -37,17 +39,19 @@
     animation: scale-in 0.3s ease-out;
   }
   
-  /* Estilos para la visualización del tiempo */
+  
   .time-display {
     font-family: 'Courier New', monospace;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    bottom: 15%;
   }
   
-  .tabular-nums {
-    letter-spacing: 1px;
-  }
+
   
   .text-4xl {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   
   /* Estilos para los botones */
@@ -87,7 +91,7 @@
   
   /* Deshabilitar el botón de parada cuando no está en uso */
   #stop-button:disabled {
-    opacity: 0.5;
+    opacity: 0.7;
     cursor: not-allowed;
   }
   

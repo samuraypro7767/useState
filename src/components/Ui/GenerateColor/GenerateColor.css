@@ -10,10 +10,9 @@
 }
 
 .btn-12 {
-    width: 80%;
-    height: 5rem;
+    width: 70%;
+    height: 80px;
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -95,4 +94,30 @@
 .btn-12:hover:after,
 .btn-12:hover:before {
   --progress: 0;
+}
+.containerGenerate{
+  width:90%;
+  height: 100%;
+  border:1px solid rgb(255, 255, 255) ;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #ace3d9 ; 
+  border-radius: 10px;
+  gap: 20px;
+  padding: 30px;
+}
+.containerGenerate h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+.containerGenerate h3{
+  font-size: 25px;
+}
+.containerGenerate p{
+ font-size: 20px;
+ height: 30%;
+ width: 80%;
 }

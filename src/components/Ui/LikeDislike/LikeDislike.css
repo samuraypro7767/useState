@@ -1,19 +1,28 @@
 /* From Uiverse.io by Li-Deheng */ 
 .like-dislike-container {
-   width: 100%;
-    height: 100%;
+   width: 90%;
+  height: 90%;
+  border-radius: 8px;
    --border-radius-icon: 50px;
    background-color: transparent;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #ace3d9 ;
+   padding: 15px 5px;
+   gap: 20px;
 }
 
 
   
   .like-dislike-container .text-content {
-    margin-bottom: 1rem;
     font-size: 18px;
     line-height: 1.6;
     cursor: default;
     width: 100%;
+    position: relative;
+    bottom: 5%;
   }
   
   .like-dislike-container .icons-box {
@@ -45,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     cursor: pointer;
     position: relative;
     background-color: white;
@@ -63,17 +72,17 @@
   
   .like-dislike-container .dislike-text-content {
     border-left: 0.1rem solid black;
-    padding: 0 0.5rem 0 0.6rem;
+    padding: 0 0.5rem 0 0.5rem;
     color: black;
     pointer-events: none;
     font-size: 30px;
   }
   
   .like-dislike-container .icons .svgs {
-    width: 1rem;
+    width: 1.5rem;
     fill: #000000;
     box-sizing: content-box;
-    padding: 10px 10px;
+    padding: 3px 10px;
     transition: .2s ease all;
   }
   
@@ -267,18 +276,23 @@
     }
   }
 
-  .containerLikeDislike{
+  #containerLikeDislike{
     width: 80%;
     height:70%;
     border:1px solid rgb(245, 233, 233) ;
     display:flex;
     align-items:center;
-    justify-content: space-evenly;
-    padding: 0 0px;
+    justify-content: center;
+    background-color: #589265 ;
+   
+  
   }
 
-  .containerLikeDislike .textLike{
-    font-size: 15px;
+    .like-dislike-container .textLike{
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 35px;
+    height: 20%;
     font-weight:bold ;
     color: #000000;
   }

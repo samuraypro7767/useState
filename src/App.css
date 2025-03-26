@@ -1,27 +1,15 @@
-#root {
-  max-width:100%;
-  height: 100%;
-  margin: 0 0;
-  padding: 0;
-  text-align: center;
-}
-
-body{
-  width: 98vw;
-  height: 95vh;
-  color:  black ;
-}
 
 
 .containerMain{
-  width: 80%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   border:1px solid rgb(255, 255, 255) ;
   display: flex;
   align-items:center;
   flex-direction: column;
   justify-content: space-evenly;
- 
+  background-color: #ace3d9 ; 
+  border-radius: 10px;
 }
 
 .containerMain h2{
@@ -33,13 +21,28 @@ body{
 .containerMain p{
   font-size: 20px;
   height: 30%;
+  width: 80%;
 }
 
 .containerPricipal{
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(2 , 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill , minmax(500px,1fr));
+  grid-auto-rows: repeat(2, 1fr);
   place-items: center;
+}
+
+/* Modo Claro */
+body.light {
+  background-color: #fff;
+}
+
+
+
+
+
+/* Modo Oscuro */
+body.dark {
+  background-color: #121212;
 }
